@@ -15,3 +15,4 @@ ${mic}    xpath=//div[@aria-label="Search by voice"]
 ${google_offered_in}    xpath=//*[@id="SIvCob"]/a
 ${country}    xpath=//div[contains(text(),'Slovakia')]
 ${lucky}    xpath=/html/body/div[1]/div[3]/form/div[1]/div[1]/div[3]/center/input[2]
+# ^    toto nieje uplne dobra forma xpathu ,je to len last resort , urcite nedporucujem to pouzivat

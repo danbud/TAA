@@ -8,6 +8,25 @@ Test Setup      Setup Keyword
 
 *** Test Cases ***
 
+
+# k comu su tagy, ked je kazdy unikatny?
+# Test Google 1
+#   nerobi nic  a zaroven ak odkomentujes teardown, tak padne teardown
+
+# Test Google 2
+#   opakujes v testoch ten isty 'search' nikolko krat
+#   keyword by mal byt nieco ako  'Search For   Apple'  (alebo samozrejme lubovolny iny nazov)
+#      v jeho implementacii by mali byt   aj Input, aj wait, aj click search
+#      TC By potom vyzeral :
+#   Search For    Apple
+#   Wait Until Page Contains    Discover the innovative world
+#   -----
+
+
+# Press Keyws    None    ENTER
+#   je lepsie robit press keys nad konkretnym elementom, ak tam nedas,
+#   odpali sa enter 'len tak' a teoreticky moze aktivovat nieco co nechces
+
 Test Google 1
     [Tags]      Test1
     Close Browser
